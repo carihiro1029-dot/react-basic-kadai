@@ -182,9 +182,3 @@
     border-right-color: var(--border);
   }
 }
-
-.style {
-  border: '1px solid #ccc';
-  borderRadius: '8px';
-  padding: '16px;
-}
