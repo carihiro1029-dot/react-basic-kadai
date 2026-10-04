@@ -15,12 +15,12 @@ function App() {
     { name: '武者小路勇気', age: 29, bio: 'フロントエンドエンジニア。ReactとTypeScriptを使って開発中です。' }
   ];
 
-    // ボタンのクリック時に処理するイベントハンドラ
-    const handleClick = () => {
-      setNowIndex((nowindex) => (nowindex + 1) % profiles.length);
-    };
-  
-    const currentProfile = profiles[nowindex];
+  // ボタンのクリック時に処理するイベントハンドラ
+  const handleClick = () => {
+    setNowIndex((nowindex) => (nowindex + 1) % profiles.length);
+  };
+
+  const currentProfile = profiles[nowindex];
 
   return (
     <>
